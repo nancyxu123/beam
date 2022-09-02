@@ -58,6 +58,7 @@ public class ChildPartitionsRecordAction {
       PartitionMetadataDao partitionMetadataDao, ChangeStreamMetrics metrics) {
     this.partitionMetadataDao = partitionMetadataDao;
     this.metrics = metrics;
+
   }
 
   /**
