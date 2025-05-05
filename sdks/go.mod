@@ -47,7 +47,7 @@ require (
 	github.com/linkedin/goavro/v2 v2.12.0
 	github.com/nats-io/nats-server/v2 v2.10.4
 	github.com/nats-io/nats.go v1.31.0
-	github.com/proullon/ramsql v0.1.3
+	github.com/proullon/ramsql v0.1.4
 	github.com/spf13/cobra v1.8.0
 	github.com/testcontainers/testcontainers-go v0.25.0
 	github.com/tetratelabs/wazero v1.5.0
