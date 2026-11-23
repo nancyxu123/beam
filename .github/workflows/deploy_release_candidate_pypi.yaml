@@ -34,7 +34,7 @@ jobs:
         echo "::add-mask::${{ github.event.inputs.PYPI_USER }}"
         echo "::add-mask::${{ github.event.inputs.PYPI_PASSWORD }}"
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v7
     - name: Setup environment
       uses: ./.github/actions/setup-environment-action
       with:

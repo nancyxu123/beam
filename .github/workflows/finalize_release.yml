@@ -81,7 +81,7 @@ jobs:
     runs-on: [self-hosted, ubuntu-20.04, main]
     steps:
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v7
     - name: Mask and validate PyPi id/password
       run: |
         echo "::add-mask::${{ github.event.inputs.PYPI_USER }}"
@@ -120,7 +120,7 @@ jobs:
     runs-on: [self-hosted, ubuntu-20.04, main]
     steps:
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v7
     - name: Push tags
       env:
         VERSION_TAG: "v${{ github.event.inputs.RELEASE }}"
